@@ -39,10 +39,10 @@ export default function Extracurriculars() {
       color: "bg-green-100"
     },
     {
-      title: "Fidelity Investments",
-      role: "Data Engineer",
-      period: "May 2025 - July 2025",
-      duration: "3 months",
+      title: "Instincts, SSNCE",
+      role: "Event Head",
+      period: "March 2025",
+      duration: "1 month",
       organization: "Chennai, Tamil Nadu, India",
       color: "bg-purple-100"
     },
@@ -119,7 +119,7 @@ export default function Extracurriculars() {
           {/* Scattered Notes */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 perspective">
             {experiences.map((exp, index) => {
-              const rotations = [-3, -1, 2, -4, 1, 3, -2, 4];
+              const rotations = [-3, -1, 2, -4, 1, 3, 2, 4];
               const rotation = rotations[index % rotations.length];
               
               const yOffsets = [0, 20, -20, 40, -10, 30, -10, 15];
