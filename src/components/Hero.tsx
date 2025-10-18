@@ -49,8 +49,8 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-12">
-            Passionate about creating beautiful, functional, and user-centered digital experiences.
-            I love turning complex problems into simple, elegant solutions.
+            I’m a tech enthusiast who loves exploring new technologies and leveraging them to develop socially impactful solutions.
+            I get excited by spaces that value creativity, learning, and real-world impact.
           </p>
 
           {/* CTA Buttons */}
