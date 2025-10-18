@@ -59,7 +59,7 @@ export default function Hero() {
               View My Work
             </a>
             <a href="#contact" className="btn-secondary">
-              Get In Touch
+              Let's Connect
             </a>
           </div>
 

@@ -8,15 +8,11 @@ export default function About() {
           {/* Left Column - Text Content */}
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Hey, I’m Lavanya Vasudevan, a Computer Science engineer, student, learner, enthusiast. I love experimenting, learning new concepts, and building with new tools. 
+              Hey there! I’m Lavanya Vasudevan, a Computer Science engineer and an all-around curious learner. I’m super into picking up new concepts and tinkering with cool tools while diving into different projects.
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              I enjoy working on things that mix AI, data, and design whether that’s building web apps, analysing patterns in data, or just trying to make tech feel a little more human. I’m hooked into turning ideas into something real and meaningful, one project at a time.
-            </p>
-
-            <p className="text-lg text-gray-300 leading-relaxed">
-              When I’m not coding, you’ll probably find me writing, cartooning, singing, or listening to my favourite artists and podcasts (highly recommend Broke Studio Podcast) just trying to get better footwork in badminton. On other days, I just Netflix and chill.
+              When I’m not glued to my laptop, you can catch me writing, doodling cartoons (one on the right's mine), belting out some tunes, or jamming to my favorite artists and podcasts (seriously, check out the Broke Studio Podcast). Oh, and I'm also working on my badminton skills—gotta get that footwork down! On my off days, I'm just chilling and binge-watching on Netflix.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">

@@ -43,7 +43,7 @@ export default function Extracurriculars() {
       role: "Event Head",
       period: "March 2025",
       duration: "1 month",
-      organization: "Chennai, Tamil Nadu, India",
+      organization: "SSN College of Engineering",
       color: "bg-purple-100"
     },
     {
@@ -111,7 +111,7 @@ export default function Extracurriculars() {
         </h2>
         
         <p className="text-center text-gray-300 max-w-3xl mx-auto mb-16">
-          My journey through leadership, community work, internships, and continuous learning at SSN College of Engineering and beyond.
+          Over my college years, I’ve taken the liberty to explore a bunch of clubs, societies, and different roles. Somehow, I always find myself gravitating toward a bit of chaos — taking on new responsibilities keeps my creative nerve alive. From leadership roles and community work at SSN College of Engineering and beyond, I’ve loved diving into experiences that push me to grow.
         </p>
 
         {/* Notice Board Container */}

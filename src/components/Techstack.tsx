@@ -54,7 +54,7 @@ export default function Techstack() {
         {/* Spinning Wheel */}
         <div className="flex flex-col items-center mb-16">
           <p className="text-gray-300 mb-8 text-center max-w-2xl">
-            Spin the wheel to explore my tech stack across languages, frameworks, tools, and soft skills!
+            Yay, you made it here. Now spin the wheel to explore my tech stack!
           </p>
 
           {/* Wheel Container */}

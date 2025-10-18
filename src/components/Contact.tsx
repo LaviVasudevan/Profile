@@ -78,18 +78,18 @@ export default function Contact() {
   return (
     <section id="contact" className="section bg-gray-800/50">
       <div className="container">
-        <h2 className="section-title text-gradient">Get In Touch</h2>
+        <h2 className="section-title text-gradient">Let's Connect</h2>
         
         <p className="text-center text-gray-300 max-w-2xl mx-auto mb-12">
           I'm always open to discussing new opportunities, interesting projects, or just having 
-          a chat about technology. Feel free to reach out!
+          a chat over a plate of samosa. Feel free to reach out!
         </p>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-bold mb-6">Find me at</h3>
               <div className="space-y-4">
                 {contactInfo.map((info) => (
                   <a
