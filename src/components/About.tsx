@@ -28,7 +28,7 @@ export default function About() {
               {/* Placeholder image container with gradient border */}
               <div className="w-full h-full rounded-2xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 border-2 border-blue-500/30 overflow-hidden flex items-center justify-center">
                 <img
-                  src="/lavi.jpg"
+                  src="/lavi1.png"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
