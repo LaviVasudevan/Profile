@@ -3,7 +3,7 @@
 const profiles = [
   { 
     name: 'LinkedIn', 
-    url: 'https://linkedin.com/in/lavanya-vasudevan',
+    url: 'https://linkedin.com/in/lavanya-vasudevan14',
     icon: '💼',
     description: 'Professional network and career updates'
   },
@@ -14,16 +14,10 @@ const profiles = [
     description: 'Code repositories and open source contributions'
   },
   { 
-    name: 'Twitter', 
-    url: 'https://twitter.com/lavanya_dev',
+    name: 'Medium', 
+    url: 'https://medium.com/@techwomanspeaks',
     icon: '🐦',
-    description: 'Tech thoughts and industry insights'
-  },
-  { 
-    name: 'Instagram', 
-    url: 'https://instagram.com/lavanya.codes',
-    icon: '📷',
-    description: 'Behind the scenes and personal moments'
+    description: 'Tech thoughts and articles'
   }
 ];
 

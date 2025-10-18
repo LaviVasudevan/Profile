@@ -59,36 +59,22 @@ export default function Contact() {
     {
       icon: "📧",
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
-    },
-    {
-      icon: "📱",
-      label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210"
-    },
-    {
-      icon: "📍",
-      label: "Location",
-      value: "Vellore, Tamil Nadu, India",
-      href: "https://maps.google.com/?q=Vellore,Tamil+Nadu,India"
+      value: "lavanya.vasudevan25@gmail.com",
+      href: "mailto:lavanya.vasudevan25@gmail.com"
     },
     {
       icon: "💼",
       label: "LinkedIn",
-      value: "linkedin.com/in/yourname",
-      href: "https://linkedin.com/in/yourname"
+      value: "linkedin.com/in/lavanya-vasudevan14",
+      href: "https://linkedin.com/in/lavanya-vasudevan14"
+    },
+    {
+        icon: "🐙", 
+        label: "GitHub",
+        value: "github.com/LaviVasudevan",
+        href: "https://github.com/LaviVasudevan"
     }
   ]
-
-  const socialLinks = [
-    { name: "GitHub", href: "https://github.com/yourusername", icon: "🐙" },
-    { name: "Twitter", href: "https://twitter.com/yourusername", icon: "🐦" },
-    { name: "Instagram", href: "https://instagram.com/yourusername", icon: "📷" },
-    { name: "YouTube", href: "https://youtube.com/@yourusername", icon: "📺" }
-  ]
-
   return (
     <section id="contact" className="section bg-gray-800/50">
       <div className="container">
@@ -118,25 +104,6 @@ export default function Contact() {
                       <div className="text-sm text-gray-400">{info.label}</div>
                       <div className="text-white">{info.value}</div>
                     </div>
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            {/* Social Links */}
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Follow Me</h4>
-              <div className="flex space-x-4">
-                {socialLinks.map((social) => (
-                  <a
-                    key={social.name}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-12 h-12 bg-gray-700 hover:bg-blue-600 rounded-lg flex items-center justify-center text-xl transition-colors duration-200"
-                    title={social.name}
-                  >
-                    {social.icon}
                   </a>
                 ))}
               </div>

@@ -1,16 +1,20 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '../components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
+
 export const metadata: Metadata = {
   title: 'Your Name - Portfolio',
   description: 'Full Stack Developer & Designer',
   keywords: 'portfolio, developer, full stack, react, next.js',
   authors: [{ name: 'Your Name' }],
-  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({

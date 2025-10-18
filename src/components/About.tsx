@@ -61,21 +61,21 @@ export default function About() {
               </div>
             ))}
             
-            {/* Achievement Highlights */}
+            {/* Highlights */}
             <div className="col-span-2 mt-6">
-              <h4 className="text-lg font-semibold mb-4 text-center">Key Achievements</h4>
+              <h4 className="text-lg font-semibold mb-4 text-center">Highlights</h4>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 bg-gray-800 p-3 rounded-lg">
                   <span className="text-green-400">✓</span>
-                  <span className="text-sm">Built scalable web applications serving 1000+ users</span>
+                  <span className="text-sm">BE Computer Science and Engineering Student</span>
                 </div>
                 <div className="flex items-center space-x-3 bg-gray-800 p-3 rounded-lg">
                   <span className="text-blue-400">🏆</span>
-                  <span className="text-sm">Winner of multiple hackathons and coding competitions</span>
+                  <span className="text-sm">SIH 2024 Finalist</span>
                 </div>
                 <div className="flex items-center space-x-3 bg-gray-800 p-3 rounded-lg">
                   <span className="text-purple-400">🚀</span>
-                  <span className="text-sm">Contributed to 5+ open-source projects</span>
+                  <span className="text-sm">Data Engineering intern at Fidelity Investments</span>
                 </div>
               </div>
             </div>

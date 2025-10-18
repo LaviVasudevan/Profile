@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false)
-  const roles = ['Full Stack Developer', 'UI/UX Designer', 'Problem Solver']
+  const roles = ['Learner', 'Computer Science Student', 'Artist', 'Tech Enthusiast']
   const [currentRole, setCurrentRole] = useState(0)
 
   useEffect(() => {
@@ -31,13 +31,13 @@ export default function Hero() {
         <div className="animate-fadeIn">
           {/* Profile Image Placeholder */}
           <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-8 flex items-center justify-center text-4xl font-bold animate-float">
-            YN
+            LV
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Hi, I'm{' '}
-            <span className="text-gradient">Your Name</span>
+            I'm{' '}
+            <span className="text-gradient">Lavanya Vasudevan</span>
           </h1>
 
           {/* Dynamic Role */}

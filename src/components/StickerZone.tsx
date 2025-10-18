@@ -1,8 +1,4 @@
 'use client';
-
-import { Canvas } from '@react-three/fiber';
-import { useState } from 'react';
-
 export default function StickerZone() {
   // For simplicity, just static SVG stickers here; replace with actual 3D or draggable components later
   return (
