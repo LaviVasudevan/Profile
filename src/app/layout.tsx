@@ -32,7 +32,7 @@ export default function RootLayout({
         <footer className="bg-gray-800 py-8">
           <div className="container mx-auto px-4 text-center">
             <p className="text-gray-400">
-              © 2025 Your Name. Built with Next.js & deployed on Vercel.
+              © 2025 Lavanya Vasudevan. Built with Next.js & deployed on Vercel.
             </p>
           </div>
         </footer>
